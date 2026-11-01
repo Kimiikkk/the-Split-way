@@ -26,7 +26,7 @@ Then open <http://localhost:8000>. Three.js is bundled locally. The typefaces lo
 
 ## Publish with GitHub Pages
 
-This is a plain static site and has no build step. In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save. The site will be available at `https://kimiikkk.github.io/the-Split-way/` after Pages finishes its first deployment.
+This is a plain static site and has no build step. In the repository, open **Settings → Pages**, set **Source** to **GitHub Actions**, then save. The included workflow at `.github/workflows/pages.yml` deploys from the `main` branch root to `https://kimiikkk.github.io/the-Split-way/`.
 
 ## Project files
 
@@ -36,4 +36,3 @@ This is a plain static site and has no build step. In the repository, open **Set
 - `keyboard-3d.js` — interactive keyboard model
 - `vendor/three/` — locally bundled Three.js modules and license
 - `assets/` — example build photo
-
