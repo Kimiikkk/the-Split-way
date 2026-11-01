@@ -6,7 +6,7 @@ An interactive field guide to split keyboards: explore the layout, understand th
 
 ## Explore the guide
 
-Visit [the live site](https://kimiikkk.github.io/the-Split-way/) once GitHub Pages is enabled for this repository.
+Visit the [live guide](https://kimiikkk.github.io/the-Split-way/). GitHub Pages publishes the `main` branch root.
 
 The interactive 3D model can be rotated, resized, split, tented, and dismantled by layer. The guide covers keyboard layouts, controllers and MCUs, switches, keycaps, matrices, diodes, soldering, firmware, first-boot checks, and troubleshooting.
 
@@ -36,3 +36,4 @@ This is a plain static site and has no build step. In the repository, open **Set
 - `keyboard-3d.js` — interactive keyboard model
 - `vendor/three/` — locally bundled Three.js modules and license
 - `assets/` — example build photo
+
